@@ -1,0 +1,6 @@
+{
+    "/api/*": "/$1",
+    "/element": "/Elements",
+    "/reset": "/reset"
+  }
+  

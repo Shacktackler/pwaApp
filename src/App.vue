@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script>
+import HeaderBar from '@/components/header-bar';
+import Navbar from '@/components/nav-bar';
+
+export default {
+  name : 'App',
+  components: {HeaderBar, Navbar},
+};
+</script>
+
 <style lang="stylus">
 #app
   font-family Avenir, Helvetica, Arial, sans-serif
